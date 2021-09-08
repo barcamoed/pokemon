@@ -67,15 +67,14 @@ const deletePokemon=(id)=>{
               </Flex>
                )
               ):
-              'No Data'
-              // <Flex 
-              //   align='center'
-              //   justify='center'
-              //   wrap="wrap"
-              //   padding={5}
-              //   >
-              //   <Text color='black'>No Data</Text>
-              // </Flex>
+              <Flex 
+                align='center'
+                justify='center'
+                wrap="wrap"
+                padding={5}
+                >
+                <Text color='black'>No Data</Text>
+              </Flex>
               }
 
           </SimpleGrid>
